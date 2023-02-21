@@ -11,9 +11,21 @@
   --mark-size: calc(var(--cell-size) * 0.9);
 }
 
+.text-container {
+  margin-top: 30px;
+}
+
+h1,
+h2 {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .board {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   display: grid;
   justify-content: center;
   align-content: center;
